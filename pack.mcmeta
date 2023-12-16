@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 16,
+        "description": "Wrench pack to allow easy rotation of blocks. Configurable."
+    }
+}
