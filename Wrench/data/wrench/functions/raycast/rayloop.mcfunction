@@ -16,5 +16,5 @@ execute as @s[scores={WrenchSuccess=1..}] run playsound minecraft:entity.item_fr
 execute if score WrenchDebug WrenchConfig matches 1 run summon area_effect_cloud ~ ~ ~ {Particle:happy_villager,Radius:0.01,Duration:2}
 
 # Advance forward and if nothing found
-scoreboard players add #distance raycast 1
-execute if score @s WrenchSuccess matches 0 if score #distance raycast matches ..350 positioned ^ ^ ^0.01 run function wrench:raycast/rayloop
+scoreboard players add #distance WrenchRaycast 1
+execute if score @s WrenchSuccess matches 0 if score #distance WrenchRaycast matches ..350 positioned ^ ^ ^0.01 run function wrench:raycast/rayloop
