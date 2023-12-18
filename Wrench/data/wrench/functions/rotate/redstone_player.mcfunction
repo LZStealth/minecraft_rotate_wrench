@@ -64,14 +64,14 @@ execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45
 ## Redstone Components Waterlog-able
 
 # Calibrated Sculk Sensor
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=south] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=west] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=north] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=east] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=south] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=west] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=north] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=east] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=south] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=west] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=north] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=east] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=south] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=west] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=north] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=east] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
 
 ## Redstone Components with Properties
 
