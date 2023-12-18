@@ -5,6 +5,7 @@
         "minecraft:hopper",
         "minecraft:repeater",
         "minecraft:comparator",
+        "minecraft:calibrated_sculk_sensor",
         "#minecraft:slabs",
         "#minecraft:stairs",
         "minecraft:end_rod",

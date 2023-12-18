@@ -5,6 +5,14 @@ execute as @s[scores={WrenchSuccess=-2}] run scoreboard players set @s WrenchSuc
 
 ## Redstone Components
 
+# Barrel
+execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=up] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=down] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=north] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=east] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=south] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=west] replace minecraft:barrel
+
 # Dispenser
 execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up] replace minecraft:dispenser
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=down] replace minecraft:dispenser
@@ -52,6 +60,18 @@ execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] 
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:sticky_piston[facing=east] replace minecraft:sticky_piston
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:sticky_piston[facing=south] replace minecraft:sticky_piston
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:sticky_piston[facing=west] replace minecraft:sticky_piston
+
+## Redstone Components Waterlog-able
+
+# Calibrated Sculk Sensor
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=south] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=west] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=north] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=east] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=south] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=west] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=north] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=east] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
 
 ## Redstone Components with Properties
 

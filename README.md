@@ -15,12 +15,14 @@ The wrench can currently rotate these blocks:
 * The following redstone components:
     * pistons
     * sticky pistons
+    * barrel
     * dispensers
     * droppers
     * observers
     * hoppers
     * repeaters
     * comparators
+    * calibrated sculk sensor
 * Glazed terracotta
 * Rails
 * End rods

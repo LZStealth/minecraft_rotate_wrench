@@ -31,6 +31,7 @@ execute if block ~ ~ ~ #minecraft:rails unless score WrenchRails WrenchConfig ma
 #Redstone
 execute if block ~ ~ ~ minecraft:repeater unless score WrenchRedstone WrenchConfig matches 0 if score py WrenchRaycast matches ..1 run function wrench:rotate/redstone
 execute if block ~ ~ ~ minecraft:comparator unless score WrenchRedstone WrenchConfig matches 0 if score py WrenchRaycast matches ..1 run function wrench:rotate/redstone
+execute if block ~ ~ ~ minecraft:calibrated_sculk_sensor unless score WrenchRedstone WrenchConfig matches 0 if score py WrenchRaycast matches ..7 run function wrench:rotate/redstone
 execute if block ~ ~ ~ minecraft:piston unless score WrenchRedstone WrenchConfig matches 0 run function wrench:raycast/partialbox/pistons
 execute if block ~ ~ ~ minecraft:sticky_piston unless score WrenchRedstone WrenchConfig matches 0 run function wrench:raycast/partialbox/sticky_pistons
 execute if block ~ ~ ~ minecraft:hopper unless score WrenchRedstone WrenchConfig matches 0 run function wrench:raycast/partialbox/hoppers

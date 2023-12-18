@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "minecraft:barrel",
         "minecraft:dispenser",
         "minecraft:dropper",
         "minecraft:piston",

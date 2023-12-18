@@ -29,6 +29,14 @@ execute if block ~ ~ ~ minecraft:hopper if score py WrenchRaycast matches 10 run
 
 ## Standard Redstone Components
 
+# Barrel
+execute as @s[scores={WrenchSuccess=0}] if score py WrenchRaycast matches 15 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=up] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}] if score py WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=down] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}] if score pz WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=north] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}] if score px WrenchRaycast matches 15 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=east] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}] if score pz WrenchRaycast matches 15 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=south] replace minecraft:barrel
+execute as @s[scores={WrenchSuccess=0}] if score px WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=west] replace minecraft:barrel
+
 # Dispenser
 execute as @s[scores={WrenchSuccess=0}] if score py WrenchRaycast matches 15 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up] replace minecraft:dispenser
 execute as @s[scores={WrenchSuccess=0}] if score py WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=down] replace minecraft:dispenser
@@ -77,6 +85,20 @@ execute as @s[scores={WrenchSuccess=0}] if score px WrenchRaycast matches 15 sto
 execute as @s[scores={WrenchSuccess=0}] if score pz WrenchRaycast matches 15 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:sticky_piston[facing=south] replace minecraft:sticky_piston
 execute as @s[scores={WrenchSuccess=0}] if score px WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:sticky_piston[facing=west] replace minecraft:sticky_piston
 
+## Redstone Components Waterlog-able
+
+# Calibrated Sculk Sensor
+execute as @s[scores={WrenchSuccess=0}] if score pz WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=south] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] if score px WrenchRaycast matches 15 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=west] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] if score pz WrenchRaycast matches 15 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=north] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] if score px WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=true,facing=east] replace minecraft:calibrated_sculk_sensor[waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] if score pz WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=south] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}] if score px WrenchRaycast matches 15 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=west] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}] if score pz WrenchRaycast matches 15 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=north] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+execute as @s[scores={WrenchSuccess=0}] if score px WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:calibrated_sculk_sensor[waterlogged=false,facing=east] replace minecraft:calibrated_sculk_sensor[waterlogged=false]
+
+## Redstone Components with Properties
+
 # Repeater
 #	Delay 1
 execute as @s[scores={WrenchSuccess=0}] if score pz WrenchRaycast matches 0 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:repeater[delay=1,facing=north] replace minecraft:repeater[delay=1]
@@ -114,6 +136,7 @@ execute as @s[scores={WrenchSuccess=0}] if score px WrenchRaycast matches 0 stor
 ## Non-processed
 
 # Process Non-Full Blocks
+execute as @s[scores={WrenchSuccess=-2}] if block ~ ~ ~ minecraft:calibrated_sculk_sensor store result score @s WrenchSuccess run function wrench:rotate/redstone_player
 execute as @s[scores={WrenchSuccess=-2}] if block ~ ~ ~ minecraft:repeater store result score @s WrenchSuccess run function wrench:rotate/redstone_player
 execute as @s[scores={WrenchSuccess=-2}] if block ~ ~ ~ minecraft:comparator store result score @s WrenchSuccess run function wrench:rotate/redstone_player
 execute as @s[scores={WrenchSuccess=-2}] if block ~ ~ ~ minecraft:hopper store result score @s WrenchSuccess run function wrench:rotate/redstone_player
