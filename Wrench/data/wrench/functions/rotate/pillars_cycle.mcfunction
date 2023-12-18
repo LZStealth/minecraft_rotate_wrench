@@ -42,6 +42,26 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_birch_wood[axis=y] replace minecraft:stripped_birch_wood[axis=x]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_birch_wood[axis=x] replace minecraft:stripped_birch_wood[axis=z]
 
+# Cherry Log
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_log[axis=z] replace minecraft:cherry_log[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_log[axis=y] replace minecraft:cherry_log[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_log[axis=x] replace minecraft:cherry_log[axis=z]
+
+# Cherry Log (Stripped)
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_log[axis=z] replace minecraft:stripped_cherry_log[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_log[axis=y] replace minecraft:stripped_cherry_log[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_log[axis=x] replace minecraft:stripped_cherry_log[axis=z]
+
+# Cherry Wood
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_wood[axis=z] replace minecraft:cherry_wood[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_wood[axis=y] replace minecraft:cherry_wood[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_wood[axis=x] replace minecraft:cherry_wood[axis=z]
+
+# Cherry Wood (Stripped)
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_wood[axis=z] replace minecraft:stripped_cherry_wood[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_wood[axis=y] replace minecraft:stripped_cherry_wood[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_wood[axis=x] replace minecraft:stripped_cherry_wood[axis=z]
+
 # Dark Oak Log
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dark_oak_log[axis=z] replace minecraft:dark_oak_log[axis=y]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dark_oak_log[axis=y] replace minecraft:dark_oak_log[axis=x]
