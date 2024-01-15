@@ -22,6 +22,16 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_acacia_wood[axis=y] replace minecraft:stripped_acacia_wood[axis=x]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_acacia_wood[axis=x] replace minecraft:stripped_acacia_wood[axis=z]
 
+# Bamboo
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=z] replace minecraft:bamboo_block[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=y] replace minecraft:bamboo_block[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=x] replace minecraft:bamboo_block[axis=z]
+
+# Bamboo (Stripped)
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=z] replace minecraft:stripped_bamboo_block[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=y] replace minecraft:stripped_bamboo_block[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=x] replace minecraft:stripped_bamboo_block[axis=z]
+
 # Birch Log
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:birch_log[axis=z] replace minecraft:birch_log[axis=y]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:birch_log[axis=y] replace minecraft:birch_log[axis=x]
