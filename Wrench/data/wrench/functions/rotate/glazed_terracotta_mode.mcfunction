@@ -1,10 +1,10 @@
 ### Rotate Glazed Terracotta
 
 # Terracotta Mode Rotation
-execute as @s[nbt={SelectedItem:{tag:{display:{Lore:['{"text":"Terracotta mode"}', '{"text":"North"}']}}}}] run tag @s add TerracottaNORTH
-execute as @s[nbt={SelectedItem:{tag:{display:{Lore:['{"text":"Terracotta mode"}', '{"text":"East"}']}}}}] run tag @s add TerracottaEAST
-execute as @s[nbt={SelectedItem:{tag:{display:{Lore:['{"text":"Terracotta mode"}', '{"text":"South"}']}}}}] run tag @s add TerracottaSOUTH
-execute as @s[nbt={SelectedItem:{tag:{display:{Lore:['{"text":"Terracotta mode"}', '{"text":"West"}']}}}}] run tag @s add TerracottaWEST
+execute as @s[nbt={SelectedItem:{components:{"minecraft:lore":['"North"']}}}] run tag @s add TerracottaNORTH
+execute as @s[nbt={SelectedItem:{components:{"minecraft:lore":['"East"']}}}] run tag @s add TerracottaEAST
+execute as @s[nbt={SelectedItem:{components:{"minecraft:lore":['"South"']}}}] run tag @s add TerracottaSOUTH
+execute as @s[nbt={SelectedItem:{components:{"minecraft:lore":['"West"']}}}] run tag @s add TerracottaWEST
 
 ## Shades
 
