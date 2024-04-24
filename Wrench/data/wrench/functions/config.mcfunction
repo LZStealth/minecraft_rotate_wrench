@@ -1,5 +1,5 @@
 # Config
-tellraw @s [{"text":"                        ","strikethrough":true},{"text":" LZ's Wrench Config ","color":"gold","strikethrough":false,"bold":true},{"text":"                         ","strikethrough":true}]
+tellraw @s [{"text":"                     ","strikethrough":true},{"text":" Rotator Wrench Config ","color":"gold","strikethrough":false,"bold":true},{"text":"                       ","strikethrough":true}]
 tellraw @s {"text":"Which catagories should be wrenchable?"}
 function wrench:config/pillars/main
 function wrench:config/redstone/main

@@ -1,1 +1,1 @@
-give @s minecraft:carrot_on_a_stick{Wrench: 597832584, HideFlags: 1, display: {Lore: ['{"text":"Default"}'], Name: '{"italic":false,"text":"LZ\'s Wrench"}'}, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}
+give @s minecraft:carrot_on_a_stick[minecraft:custom_name='{"text":"Rotator Wrench"}',minecraft:lore=['{"text":"Default"}'],minecraft:unbreakable={show_in_tooltip:false},minecraft:custom_data={"Wrench":597832584},minecraft:enchantment_glint_override=true]

@@ -34,22 +34,6 @@ execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_acacia_wood[axis=x] replace minecraft:stripped_acacia_wood
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_acacia_wood[axis=x] replace minecraft:stripped_acacia_wood
 
-# Bamboo
-execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=y] replace minecraft:bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=y] replace minecraft:bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=z] replace minecraft:bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=z] replace minecraft:bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=x] replace minecraft:bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=x] replace minecraft:bamboo_block
-
-# Bamboo (Stripped)
-execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=y] replace minecraft:stripped_bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=y] replace minecraft:stripped_bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=z] replace minecraft:stripped_bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=z] replace minecraft:stripped_bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=x] replace minecraft:stripped_bamboo_block
-execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=x] replace minecraft:stripped_bamboo_block
-
 # Birch Log
 execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:birch_log[axis=y] replace minecraft:birch_log
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:birch_log[axis=y] replace minecraft:birch_log
