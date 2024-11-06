@@ -10,6 +10,20 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=down] replace minecraft:barrel[facing=south]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=south] replace minecraft:barrel[facing=east]
 
+# Crafter
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=up_north] replace minecraft:crafter[orientation=down_west]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=up_east] replace minecraft:crafter[orientation=up_north]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=up_south] replace minecraft:crafter[orientation=up_east]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=up_west] replace minecraft:crafter[orientation=up_south]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=north_up] replace minecraft:crafter[orientation=up_west]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=east_up] replace minecraft:crafter[orientation=north_up]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=south_up] replace minecraft:crafter[orientation=east_up]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=west_up] replace minecraft:crafter[orientation=south_up]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=down_north] replace minecraft:crafter[orientation=west_up]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=down_east] replace minecraft:crafter[orientation=down_north]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=down_south] replace minecraft:crafter[orientation=down_east]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=down_west] replace minecraft:crafter[orientation=down_south]
+
 # Dispenser
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=east] replace minecraft:dispenser[facing=up]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up] replace minecraft:dispenser[facing=north]

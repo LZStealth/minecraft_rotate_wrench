@@ -13,6 +13,20 @@ execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] 
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=south] replace minecraft:barrel
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:barrel[facing=west] replace minecraft:barrel
 
+# Crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=up_south] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=up_west] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=up_north] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=up_east] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=down_north] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=down_east] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=down_south] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=down_west] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=north_up] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=east_up] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=south_up] replace minecraft:crafter
+execute as @s[scores={WrenchSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crafter[orientation=west_up] replace minecraft:crafter
+
 # Dispenser
 execute as @s[scores={WrenchSuccess=0}, x_rotation=45..90] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=up] replace minecraft:dispenser
 execute as @s[scores={WrenchSuccess=0}, x_rotation=-90..-45] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:dispenser[facing=down] replace minecraft:dispenser

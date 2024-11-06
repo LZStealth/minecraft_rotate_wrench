@@ -9,6 +9,7 @@
         "minecraft:observer",
         "minecraft:hopper",
         "minecraft:repeater",
-        "minecraft:comparator"
+        "minecraft:comparator",
+        "minecraft:crafter"
     ]
 }
