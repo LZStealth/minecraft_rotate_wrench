@@ -147,6 +147,26 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_oak_wood[axis=y] replace minecraft:stripped_oak_wood[axis=x]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_oak_wood[axis=x] replace minecraft:stripped_oak_wood[axis=z]
 
+# Oak Log
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_log[axis=z] replace minecraft:pale_oak_log[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_log[axis=y] replace minecraft:pale_oak_log[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_log[axis=x] replace minecraft:pale_oak_log[axis=z]
+
+# Oak Log (Stripped)
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_pale_oak_log[axis=z] replace minecraft:stripped_pale_oak_log[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_pale_oak_log[axis=y] replace minecraft:stripped_pale_oak_log[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_pale_oak_log[axis=x] replace minecraft:stripped_pale_oak_log[axis=z]
+
+# Pale Oak Wood
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_wood[axis=z] replace minecraft:pale_oak_wood[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_wood[axis=y] replace minecraft:pale_oak_wood[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_wood[axis=x] replace minecraft:pale_oak_wood[axis=z]
+
+# Pale Oak Wood (Stripped)
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_pale_oak_wood[axis=z] replace minecraft:stripped_pale_oak_wood[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_pale_oak_wood[axis=y] replace minecraft:stripped_pale_oak_wood[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_pale_oak_wood[axis=x] replace minecraft:stripped_pale_oak_wood[axis=z]
+
 # Spruce Log
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:spruce_log[axis=z] replace minecraft:spruce_log[axis=y]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:spruce_log[axis=y] replace minecraft:spruce_log[axis=x]
@@ -245,3 +265,18 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=z] replace minecraft:deepslate[axis=y]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=y] replace minecraft:deepslate[axis=x]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=x] replace minecraft:deepslate[axis=z]
+
+# Ochre Froglight
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:ochre_froglight[axis=z] replace minecraft:ochre_froglight[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:ochre_froglight[axis=y] replace minecraft:ochre_froglight[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:ochre_froglight[axis=x] replace minecraft:ochre_froglight[axis=z]
+
+# Pearlescent Froglight
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pearlescent_froglight[axis=z] replace minecraft:pearlescent_froglight[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pearlescent_froglight[axis=y] replace minecraft:pearlescent_froglight[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pearlescent_froglight[axis=x] replace minecraft:pearlescent_froglight[axis=z]
+
+# Verdant Froglight
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:verdant_froglight[axis=z] replace minecraft:verdant_froglight[axis=y]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:verdant_froglight[axis=y] replace minecraft:verdant_froglight[axis=x]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:verdant_froglight[axis=x] replace minecraft:verdant_froglight[axis=z]

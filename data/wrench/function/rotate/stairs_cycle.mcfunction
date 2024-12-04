@@ -630,6 +630,24 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:oak_stairs[half=top,facing=west] replace minecraft:oak_stairs[half=top,facing=south]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:oak_stairs[half=bottom,facing=south] replace minecraft:oak_stairs[half=top,facing=east]
 
+# Pale Oak
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=east,waterlogged=true] replace minecraft:pale_oak_stairs[half=bottom,facing=north,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=north,waterlogged=true] replace minecraft:pale_oak_stairs[half=bottom,facing=west,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=west,waterlogged=true] replace minecraft:pale_oak_stairs[half=bottom,facing=south,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=top,facing=south,waterlogged=true] replace minecraft:pale_oak_stairs[half=bottom,facing=east,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=top,facing=east,waterlogged=true] replace minecraft:pale_oak_stairs[half=top,facing=north,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=top,facing=north,waterlogged=true] replace minecraft:pale_oak_stairs[half=top,facing=west,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=top,facing=west,waterlogged=true] replace minecraft:pale_oak_stairs[half=top,facing=south,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=south,waterlogged=true] replace minecraft:pale_oak_stairs[half=top,facing=east,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=east] replace minecraft:pale_oak_stairs[half=bottom,facing=north]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=north] replace minecraft:pale_oak_stairs[half=bottom,facing=west]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=west] replace minecraft:pale_oak_stairs[half=bottom,facing=south]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=top,facing=south] replace minecraft:pale_oak_stairs[half=bottom,facing=east]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=top,facing=east] replace minecraft:pale_oak_stairs[half=top,facing=north]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=top,facing=north] replace minecraft:pale_oak_stairs[half=top,facing=west]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=top,facing=west] replace minecraft:pale_oak_stairs[half=top,facing=south]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=south] replace minecraft:pale_oak_stairs[half=top,facing=east]
+
 # Prismarine
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine_stairs[half=bottom,facing=east,waterlogged=true] replace minecraft:prismarine_stairs[half=bottom,facing=north,waterlogged=true]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine_stairs[half=bottom,facing=north,waterlogged=true] replace minecraft:prismarine_stairs[half=bottom,facing=west,waterlogged=true]
@@ -755,6 +773,24 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:red_sandstone_stairs[half=top,facing=north] replace minecraft:red_sandstone_stairs[half=top,facing=west]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:red_sandstone_stairs[half=top,facing=west] replace minecraft:red_sandstone_stairs[half=top,facing=south]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:red_sandstone_stairs[half=bottom,facing=south] replace minecraft:red_sandstone_stairs[half=top,facing=east]
+
+# Resin Brick
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=bottom,facing=east,waterlogged=true] replace minecraft:resin_brick_stairs[half=bottom,facing=north,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=bottom,facing=north,waterlogged=true] replace minecraft:resin_brick_stairs[half=bottom,facing=west,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=bottom,facing=west,waterlogged=true] replace minecraft:resin_brick_stairs[half=bottom,facing=south,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=top,facing=south,waterlogged=true] replace minecraft:resin_brick_stairs[half=bottom,facing=east,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=top,facing=east,waterlogged=true] replace minecraft:resin_brick_stairs[half=top,facing=north,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=top,facing=north,waterlogged=true] replace minecraft:resin_brick_stairs[half=top,facing=west,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=top,facing=west,waterlogged=true] replace minecraft:resin_brick_stairs[half=top,facing=south,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=bottom,facing=south,waterlogged=true] replace minecraft:resin_brick_stairs[half=top,facing=east,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=bottom,facing=east] replace minecraft:resin_brick_stairs[half=bottom,facing=north]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=bottom,facing=north] replace minecraft:resin_brick_stairs[half=bottom,facing=west]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=bottom,facing=west] replace minecraft:resin_brick_stairs[half=bottom,facing=south]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=top,facing=south] replace minecraft:resin_brick_stairs[half=bottom,facing=east]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=top,facing=east] replace minecraft:resin_brick_stairs[half=top,facing=north]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=top,facing=north] replace minecraft:resin_brick_stairs[half=top,facing=west]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=top,facing=west] replace minecraft:resin_brick_stairs[half=top,facing=south]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_stairs[half=bottom,facing=south] replace minecraft:resin_brick_stairs[half=top,facing=east]
 
 # Sandstone
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:sandstone_stairs[half=bottom,facing=east,waterlogged=true] replace minecraft:sandstone_stairs[half=bottom,facing=north,waterlogged=true]

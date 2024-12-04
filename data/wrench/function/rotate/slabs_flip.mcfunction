@@ -222,6 +222,12 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:oak_slab[type=top] replace minecraft:oak_slab[type=bottom]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:oak_slab[type=bottom] replace minecraft:oak_slab[type=top]
 
+# Pale Oak
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_slab[type=top,waterlogged=true] replace minecraft:pale_oak_slab[type=bottom,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_slab[type=bottom,waterlogged=true] replace minecraft:pale_oak_slab[type=top,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_slab[type=top] replace minecraft:pale_oak_slab[type=bottom]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_slab[type=bottom] replace minecraft:pale_oak_slab[type=top]
+
 # Petrified Oak
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:petrified_oak_slab[type=top,waterlogged=true] replace minecraft:petrified_oak_slab[type=bottom,waterlogged=true]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:petrified_oak_slab[type=bottom,waterlogged=true] replace minecraft:petrified_oak_slab[type=top,waterlogged=true]
@@ -275,6 +281,12 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:smooth_red_sandstone_slab[type=bottom,waterlogged=true] replace minecraft:smooth_red_sandstone_slab[type=top,waterlogged=true]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:smooth_red_sandstone_slab[type=top] replace minecraft:smooth_red_sandstone_slab[type=bottom]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:smooth_red_sandstone_slab[type=bottom] replace minecraft:smooth_red_sandstone_slab[type=top]
+
+# Resin Brick Slab
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_slab[type=top,waterlogged=true] replace minecraft:resin_brick_slab[type=bottom,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_slab[type=bottom,waterlogged=true] replace minecraft:resin_brick_slab[type=top,waterlogged=true]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_slab[type=top] replace minecraft:resin_brick_slab[type=bottom]
+execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_slab[type=bottom] replace minecraft:resin_brick_slab[type=top]
 
 # Sandstone
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:sandstone_slab[type=top,waterlogged=true] replace minecraft:sandstone_slab[type=bottom,waterlogged=true]
