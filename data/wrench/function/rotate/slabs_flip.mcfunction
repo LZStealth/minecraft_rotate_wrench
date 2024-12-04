@@ -282,7 +282,7 @@ execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run 
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:smooth_red_sandstone_slab[type=top] replace minecraft:smooth_red_sandstone_slab[type=bottom]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:smooth_red_sandstone_slab[type=bottom] replace minecraft:smooth_red_sandstone_slab[type=top]
 
-# Resin Brick Slab
+# Resin Brick
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_slab[type=top,waterlogged=true] replace minecraft:resin_brick_slab[type=bottom,waterlogged=true]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_slab[type=bottom,waterlogged=true] replace minecraft:resin_brick_slab[type=top,waterlogged=true]
 execute as @s[scores={WrenchSuccess=0}] store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:resin_brick_slab[type=top] replace minecraft:resin_brick_slab[type=bottom]

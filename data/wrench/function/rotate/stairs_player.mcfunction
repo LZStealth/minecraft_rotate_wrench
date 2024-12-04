@@ -630,7 +630,7 @@ execute as @s[scores={WrenchSuccess=0}, y_rotation=45..135] if score py WrenchRa
 execute as @s[scores={WrenchSuccess=0}, y_rotation=135..-135] if score py WrenchRaycast matches 8.. store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:oak_stairs[half=top,facing=north] replace minecraft:oak_stairs[waterlogged=false]
 execute as @s[scores={WrenchSuccess=0}, y_rotation=-135..-45] if score py WrenchRaycast matches 8.. store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:oak_stairs[half=top,facing=east] replace minecraft:oak_stairs[waterlogged=false]
 
-# Oak
+# Pale Oak
 execute as @s[scores={WrenchSuccess=0}, y_rotation=-45..45] if score py WrenchRaycast matches ..7 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=south,waterlogged=true] replace minecraft:pale_oak_stairs[waterlogged=true]
 execute as @s[scores={WrenchSuccess=0}, y_rotation=45..135] if score py WrenchRaycast matches ..7 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=west,waterlogged=true] replace minecraft:pale_oak_stairs[waterlogged=true]
 execute as @s[scores={WrenchSuccess=0}, y_rotation=135..-135] if score py WrenchRaycast matches ..7 store result score @s WrenchSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pale_oak_stairs[half=bottom,facing=north,waterlogged=true] replace minecraft:pale_oak_stairs[waterlogged=true]
