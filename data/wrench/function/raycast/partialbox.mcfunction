@@ -39,3 +39,4 @@ execute if block ~ ~ ~ minecraft:hopper unless score WrenchRedstone WrenchConfig
 execute if block ~ ~ ~ #minecraft:slabs unless score WrenchSlabs WrenchConfig matches 0 run function wrench:raycast/partialbox/slabs
 execute if block ~ ~ ~ #minecraft:stairs unless score WrenchStairs WrenchConfig matches 0 run function wrench:raycast/partialbox/stairs
 execute if block ~ ~ ~ minecraft:end_rod unless score WrenchRods WrenchConfig matches 0 run function wrench:raycast/partialbox/end_rods
+execute if block ~ ~ ~ minecraft:chain unless score WrenchRods WrenchConfig matches 0 run function wrench:raycast/partialbox/chain

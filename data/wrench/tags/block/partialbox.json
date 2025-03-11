@@ -9,6 +9,7 @@
         "#minecraft:slabs",
         "#minecraft:stairs",
         "minecraft:end_rod",
+        "minecraft:chain",
         "minecraft:piston",
         "minecraft:sticky_piston"
     ]
