@@ -1,0 +1,23 @@
+## Face Player Stairs
+
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=-45..45] if score py lz_wrench_raycast matches ..7 store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true] run setblock ~ ~ ~ $(block)[half=bottom,facing=south,waterlogged=true] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=45..135] if score py lz_wrench_raycast matches ..7 store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true] run setblock ~ ~ ~ $(block)[half=bottom,facing=west,waterlogged=true] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=135..-135] if score py lz_wrench_raycast matches ..7 store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true] run setblock ~ ~ ~ $(block)[half=bottom,facing=north,waterlogged=true] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=-135..-45] if score py lz_wrench_raycast matches ..7 store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true] run setblock ~ ~ ~ $(block)[half=bottom,facing=east,waterlogged=true] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=-45..45] if score py lz_wrench_raycast matches 8.. store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true] run setblock ~ ~ ~ $(block)[half=top,facing=south,waterlogged=true] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=45..135] if score py lz_wrench_raycast matches 8.. store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true] run setblock ~ ~ ~ $(block)[half=top,facing=west,waterlogged=true] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=135..-135] if score py lz_wrench_raycast matches 8.. store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true] run setblock ~ ~ ~ $(block)[half=top,facing=north,waterlogged=true] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=-135..-45] if score py lz_wrench_raycast matches 8.. store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true] run setblock ~ ~ ~ $(block)[half=top,facing=east,waterlogged=true] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=-45..45] if score py lz_wrench_raycast matches ..7 store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false] run setblock ~ ~ ~ $(block)[half=bottom,facing=south] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=45..135] if score py lz_wrench_raycast matches ..7 store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false] run setblock ~ ~ ~ $(block)[half=bottom,facing=west] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=135..-135] if score py lz_wrench_raycast matches ..7 store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false] run setblock ~ ~ ~ $(block)[half=bottom,facing=north] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=-135..-45] if score py lz_wrench_raycast matches ..7 store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false] run setblock ~ ~ ~ $(block)[half=bottom,facing=east] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=-45..45] if score py lz_wrench_raycast matches 8.. store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false] run setblock ~ ~ ~ $(block)[half=top,facing=south] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=45..135] if score py lz_wrench_raycast matches 8.. store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false] run setblock ~ ~ ~ $(block)[half=top,facing=west] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=135..-135] if score py lz_wrench_raycast matches 8.. store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false] run setblock ~ ~ ~ $(block)[half=top,facing=north] replace
+$execute as @s[scores={lz_wrench_success=0}, y_rotation=-135..-45] if score py lz_wrench_raycast matches 8.. store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false] run setblock ~ ~ ~ $(block)[half=top,facing=east] replace
+
+## Non-processed
+
+# Otherwise, Flip
+execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/stairs/flip with storage lz:wrench

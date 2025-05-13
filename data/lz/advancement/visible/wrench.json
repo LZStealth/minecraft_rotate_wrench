@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "lzstealth:wrench",
+            "lzstealth:wrench_default"
+          ]
+        }
+      }
+    },
+    "title": {
+      "text": "Pivot, PIVOT!"
+    },
+    "description": {
+      "text": "Craft a Block Wrench"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lz:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "wrench:wrench"
+      }
+    }
+  }
+}

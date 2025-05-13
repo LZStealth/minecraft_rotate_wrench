@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "strings": [
+                        "lzstealth:wrench"
+                    ]
+                }
+            }
+        },
+        "title": "LZ's Build Things",
+        "description": {
+            "text": "Tools that you may find useful!"
+        },
+        "background": "minecraft:block/dirt",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

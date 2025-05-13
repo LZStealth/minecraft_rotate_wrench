@@ -1,0 +1,12 @@
+## Flip Signs Wall
+
+say flip
+
+$execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true,facing=south] run setblock ~ ~ ~ $(block)[waterlogged=true,facing=north] replace
+$execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true,facing=west] run setblock ~ ~ ~ $(block)[waterlogged=true,facing=east] replace
+$execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true,facing=north] run setblock ~ ~ ~ $(block)[waterlogged=true,facing=south] replace
+$execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=true,facing=east] run setblock ~ ~ ~ $(block)[waterlogged=true,facing=west] replace
+$execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false,facing=south] run setblock ~ ~ ~ $(block)[waterlogged=false,facing=north] replace
+$execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false,facing=west] run setblock ~ ~ ~ $(block)[waterlogged=false,facing=east] replace
+$execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false,facing=north] run setblock ~ ~ ~ $(block)[waterlogged=false,facing=south] replace
+$execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run execute if block ~ ~ ~ #minecraft:wall_hanging_signs[facing=east] run setblock ~ ~ ~ $(block)[facing=west] replace

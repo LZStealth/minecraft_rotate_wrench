@@ -1,0 +1,2 @@
+# Calibrated Sculk Sensor
+execute if block ~ ~ ~ minecraft:calibrated_sculk_sensor if score py lz_wrench_raycast matches ..7 run function wrench:rotate/unique_blocks/calibrated_sculk_sensor/rotate

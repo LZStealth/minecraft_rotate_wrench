@@ -1,0 +1,64 @@
+# Grindstone
+
+# Floor
+execute if score px lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 4..15 if score pz lz_wrench_raycast matches 2..13 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 4..15 if score px lz_wrench_raycast matches 2..13 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 4..15 if score pz lz_wrench_raycast matches 2..13 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 4..15 if score px lz_wrench_raycast matches 2..13 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+execute if score px lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 7..12 if score pz lz_wrench_raycast matches 5..10 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 7..12 if score px lz_wrench_raycast matches 5..10 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 7..12 if score pz lz_wrench_raycast matches 5..10 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 7..12 if score px lz_wrench_raycast matches 5..10 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+execute if score px lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 0..6 if score pz lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 0..6 if score px lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 0..6 if score pz lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 0..6 if score px lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+execute if score px lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 0..6 if score pz lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 0..6 if score px lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 0..6 if score pz lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 0..6 if score px lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=floor,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+# Wall
+execute if score px lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 2..13 if score pz lz_wrench_raycast matches 0..11 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 2..13 if score px lz_wrench_raycast matches 4..15 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 2..13 if score pz lz_wrench_raycast matches 4..15 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 2..13 if score px lz_wrench_raycast matches 0..11 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+execute if score px lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 5..10 if score pz lz_wrench_raycast matches 3..8 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 5..10 if score px lz_wrench_raycast matches 7..12 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 5..10 if score pz lz_wrench_raycast matches 7..12 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 5..10 if score px lz_wrench_raycast matches 3..8 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+execute if score px lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 0..6 if score pz lz_wrench_raycast matches 9..15 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 0..6 if score px lz_wrench_raycast matches 0..6 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 0..6 if score pz lz_wrench_raycast matches 0..6 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 0..6 if score px lz_wrench_raycast matches 6..15 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+execute if score px lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 0..6 if score pz lz_wrench_raycast matches 9..15 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 0..6 if score px lz_wrench_raycast matches 0..6 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 0..6 if score pz lz_wrench_raycast matches 0..6 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 0..6 if score px lz_wrench_raycast matches 9..15 if block ~ ~ ~ minecraft:grindstone[face=wall,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+# Ceiling
+execute if score px lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 0..11 if score pz lz_wrench_raycast matches 2..13 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 0..11 if score px lz_wrench_raycast matches 2..13 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 0..11 if score pz lz_wrench_raycast matches 2..13 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 0..11 if score px lz_wrench_raycast matches 2..13 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+execute if score px lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 3..8 if score pz lz_wrench_raycast matches 5..10 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 3..8 if score px lz_wrench_raycast matches 5..10 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 3..8 if score pz lz_wrench_raycast matches 5..10 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..13 if score py lz_wrench_raycast matches 3..8 if score px lz_wrench_raycast matches 5..10 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+execute if score px lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 9..15 if score pz lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 9..15 if score px lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 9..15 if score pz lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 2..3 if score py lz_wrench_raycast matches 9..15 if score px lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate
+
+execute if score px lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 9..15 if score pz lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=north] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 9..15 if score px lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=east] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score px lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 9..15 if score pz lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=south] run function wrench:rotate/unique_blocks/grindstone/rotate
+execute if score pz lz_wrench_raycast matches 12..13 if score py lz_wrench_raycast matches 9..15 if score px lz_wrench_raycast matches 6..9 if block ~ ~ ~ minecraft:grindstone[face=ceiling,facing=west] run function wrench:rotate/unique_blocks/grindstone/rotate

@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Face Player"
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "lzstealth:wrench",
+        "lzstealth:wrench_face_player"
+      ],
+      "mode": "replace_all"
+    }
+  }
+]

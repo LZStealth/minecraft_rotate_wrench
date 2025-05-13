@@ -1,0 +1,25 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Terracotta"
+      },
+      {
+        "text": "North"
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "lzstealth:wrench",
+        "lzstealth:wrench_terracotta"
+      ],
+      "mode": "replace_all"
+    }
+  }
+]

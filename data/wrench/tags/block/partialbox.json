@@ -2,6 +2,11 @@
     "replace": false,
     "values": [
         "#minecraft:rails",
+        "#minecraft:trapdoors",
+        "#minecraft:fence_gates",
+        "#minecraft:campfires",
+        "#minecraft:all_signs",
+        "#minecraft:anvil",
         "minecraft:hopper",
         "minecraft:repeater",
         "minecraft:comparator",
@@ -11,6 +16,12 @@
         "minecraft:end_rod",
         "minecraft:chain",
         "minecraft:piston",
-        "minecraft:sticky_piston"
+        "minecraft:sticky_piston",
+        "minecraft:decorated_pot",
+        "minecraft:lightning_rod",
+        "minecraft:stonecutter",
+        "minecraft:ender_chest",
+        "minecraft:bell",
+        "minecraft:grindstone"
     ]
 }
