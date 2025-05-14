@@ -23,7 +23,6 @@
       ],
       "minecraft:custom_model_data": {
         "strings": [
-          "lzstools:wrench",
           "lzstools:wrench_default"
         ]
       },
