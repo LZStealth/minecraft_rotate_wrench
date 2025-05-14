@@ -8,11 +8,11 @@
       "model": "minecraft:item/carrot_on_a_stick"
     },
     "cases": [
-      { "when": "lzstools:wrench_default", "model": { "type": "model", "model": "lzstools:items/wrench_default" } },
-      { "when": "lzstools:wrench_flip", "model": { "type": "model", "model": "lzstools:items/wrench_flip" } },
-      { "when": "lzstools:wrench_face_player", "model": { "type": "model", "model": "lzstools:items/wrench_face_player" } },
-      { "when": "lzstools:wrench_face_click", "model": { "type": "model", "model": "lzstools:items/wrench_face_click" } },
-      { "when": "lzstools:wrench_terracotta", "model": { "type": "model", "model": "lzstools:items/wrench_terracotta" } }
+      { "when": "lzstools:wrench_default", "model": { "type": "model", "model": "lzstools:items/wrench/default" } },
+      { "when": "lzstools:wrench_flip", "model": { "type": "model", "model": "lzstools:items/wrench/flip" } },
+      { "when": "lzstools:wrench_face_player", "model": { "type": "model", "model": "lzstools:items/wrench/face_player" } },
+      { "when": "lzstools:wrench_face_click", "model": { "type": "model", "model": "lzstools:items/wrench/face_click" } },
+      { "when": "lzstools:wrench_terracotta", "model": { "type": "model", "model": "lzstools:items/wrench/terracotta" } }
     ]
   }
 }
