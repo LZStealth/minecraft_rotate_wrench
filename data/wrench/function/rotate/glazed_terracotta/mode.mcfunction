@@ -17,3 +17,6 @@ tag @s[tag=TerracottaNORTH] remove TerracottaNORTH
 tag @s[tag=TerracottaEAST] remove TerracottaEAST
 tag @s[tag=TerracottaSOUTH] remove TerracottaSOUTH
 tag @s[tag=TerracottaWEST] remove TerracottaWEST
+
+# Don't rotate if matches current orientation
+execute as @s[scores={lz_wrench_success=0}] run scoreboard players set @s lz_wrench_success -1
