@@ -34,4 +34,4 @@ $execute as @s[scores={lz_wrench_success=0}, y_rotation=135..-135] if score py l
 $execute as @s[scores={lz_wrench_success=0}, y_rotation=-135..-45] if score py lz_wrench_raycast matches 8.. store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false,open=false] run setblock ~ ~ ~ $(block)[half=top,facing=west,open=false] replace
 
 # Otherwise, Flip
-execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/trapdoors/flip with storage lz:wrench
+execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/trapdoors/flip with storage lzstools:wrench

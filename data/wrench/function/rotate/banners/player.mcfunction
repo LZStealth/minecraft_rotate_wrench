@@ -18,4 +18,4 @@ $execute as @s[scores={lz_wrench_success=0}, y_rotation=-56.25..-33.75] store re
 $execute as @s[scores={lz_wrench_success=0}, y_rotation=-33.75..-11.25] store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block) run setblock ~ ~ ~ $(block)[rotation=7] replace
 
 # Otherwise, Flip
-execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/banners/flip with storage lz:wrench
+execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/banners/flip with storage lzstools:wrench

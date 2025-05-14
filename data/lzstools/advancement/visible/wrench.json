@@ -5,8 +5,8 @@
       "components": {
         "minecraft:custom_model_data": {
           "strings": [
-            "lzstealth:wrench",
-            "lzstealth:wrench_default"
+            "lzstools:wrench",
+            "lzstools:wrench_default"
           ]
         }
       }
@@ -21,7 +21,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "lz:visible/root",
+  "parent": "lzstools:visible/root",
   "criteria": {
     "": {
       "trigger": "minecraft:recipe_crafted",

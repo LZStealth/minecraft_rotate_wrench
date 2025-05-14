@@ -7,4 +7,4 @@ execute as @e[tag=lz_wrench_raycast] at @s anchored eyes positioned ^ ^ ^ run fu
 
 #Raycasting finished, removing tag from the raycaster.
 tag @s remove lz_wrench_raycast
-data remove storage lz:wrench block
+data remove storage lzstools:wrench block

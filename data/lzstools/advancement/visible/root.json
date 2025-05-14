@@ -5,7 +5,7 @@
             "components": {
                 "minecraft:custom_model_data": {
                     "strings": [
-                        "lzstealth:wrench"
+                        "lzstools:wrench"
                     ]
                 }
             }

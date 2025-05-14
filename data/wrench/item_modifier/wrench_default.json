@@ -13,8 +13,8 @@
     "function": "minecraft:set_custom_model_data",
     "strings": {
       "values": [
-        "lzstealth:wrench",
-        "lzstealth:wrench_default"
+        "lzstools:wrench",
+        "lzstools:wrench_default"
       ],
       "mode": "replace_all"
     }

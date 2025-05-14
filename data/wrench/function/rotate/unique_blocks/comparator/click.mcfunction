@@ -15,4 +15,4 @@ $execute as @s[scores={lz_wrench_success=0}] if score pz lz_wrench_raycast match
 $execute as @s[scores={lz_wrench_success=0}] if score px lz_wrench_raycast matches 0 store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[mode=subtract] run setblock ~ ~ ~ $(block)[mode=subtract,facing=west] replace
 
 # Otherwise, Flip
-execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/unique_blocks/comparator/flip with storage lz:wrench
+execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/unique_blocks/comparator/flip with storage lzstools:wrench

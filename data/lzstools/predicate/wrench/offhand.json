@@ -8,7 +8,7 @@
         "equipment": {
           "offhand": {
             "predicates": {
-              "minecraft:custom_data": "{lzstealth:wrench}"
+              "minecraft:custom_data": "{lzstools:wrench}"
             }
           }
         }

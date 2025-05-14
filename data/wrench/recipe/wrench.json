@@ -23,12 +23,12 @@
       ],
       "minecraft:custom_model_data": {
         "strings": [
-          "lzstealth:wrench",
-          "lzstealth:wrench_default"
+          "lzstools:wrench",
+          "lzstools:wrench_default"
         ]
       },
       "minecraft:custom_data": {
-        "lzstealth": "wrench"
+        "lzstools": "wrench"
       },
       "minecraft:unbreakable": {},
       "minecraft:tooltip_display": {

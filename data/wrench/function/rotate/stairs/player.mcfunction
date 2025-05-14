@@ -20,4 +20,4 @@ $execute as @s[scores={lz_wrench_success=0}, y_rotation=-135..-45] if score py l
 ## Non-processed
 
 # Otherwise, Flip
-execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/stairs/flip with storage lz:wrench
+execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/stairs/flip with storage lzstools:wrench

@@ -34,6 +34,6 @@ Additionally, you can change the Wrench's mode by right clicking in your offhand
 Information on how the different modes work is available in `WrenchModes.md`.
 
 ## Options
-The Datapack can also be removed using `/function lz:uninstall`, this will remove all scoreboard components.
+The Datapack can also be removed using `/function lzstools:uninstall`, this will remove all scoreboard components.
 
 Version 2.0

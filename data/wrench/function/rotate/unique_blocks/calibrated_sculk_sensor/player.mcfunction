@@ -10,4 +10,4 @@ $execute as @s[scores={lz_wrench_success=0}, y_rotation=135..-135] store result 
 $execute as @s[scores={lz_wrench_success=0}, y_rotation=-135..-45] store result score @s lz_wrench_success run execute if block ~ ~ ~ $(block)[waterlogged=false] run setblock ~ ~ ~ $(block)[waterlogged=false,facing=east] replace
 
 # Otherwise, Flip
-execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/unique_blocks/calibrated_sculk_sensor/flip with storage lz:wrench
+execute as @s[scores={lz_wrench_success=0}] store result score @s lz_wrench_success run function wrench:rotate/unique_blocks/calibrated_sculk_sensor/flip with storage lzstools:wrench
