@@ -1,4 +1,4 @@
-scoreboard players set @s lz_click_check 0
+scoreboard players set @s lzt_click_check 0
 
 
 # Wrench

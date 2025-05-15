@@ -7,7 +7,7 @@
         "predicates": {
           "minecraft:custom_data": {
             "lzstools": [
-              "trowel_diamond"
+              "trowel_iron"
             ]
           }
         }

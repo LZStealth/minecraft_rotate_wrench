@@ -1,4 +1,4 @@
 # Uninstall
-scoreboard objectives remove lz_click_check 
-scoreboard objectives remove lz_wrench_success
-scoreboard objectives remove lz_wrench_raycast
+scoreboard objectives remove lzt_click_check 
+scoreboard objectives remove lzt_wrench_success
+scoreboard objectives remove lzt_wrench_raycast

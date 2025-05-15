@@ -17,10 +17,10 @@ execute unless block ~ ~ ~ #lzstools:partialbox if block ~ ~ ~ #lzstools:glazed_
 execute unless block ~ ~ ~ #lzstools:partialbox if block ~ ~ ~ #lzstools:unique run function lzstools_wrench:raycast/unique
 
 # Force Update on block
-execute as @s[scores={lz_wrench_success=1..}] if block ~ ~ ~ #lzstools:updates run clone ~-1 ~ ~ ~1 ~ ~ ~-1 ~ ~ replace force
-execute as @s[scores={lz_wrench_success=1..}] if block ~ ~ ~ #lzstools:updates run clone ~ ~ ~-1 ~ ~ ~1 ~ ~ ~-1 replace force
-execute as @s[scores={lz_wrench_success=1..}] run playsound minecraft:entity.item_frame.rotate_item block @s ~ ~ ~
+execute as @s[scores={lzt_wrench_success=1..}] if block ~ ~ ~ #lzstools:updates run clone ~-1 ~ ~ ~1 ~ ~ ~-1 ~ ~ replace force
+execute as @s[scores={lzt_wrench_success=1..}] if block ~ ~ ~ #lzstools:updates run clone ~ ~ ~-1 ~ ~ ~1 ~ ~ ~-1 replace force
+execute as @s[scores={lzt_wrench_success=1..}] run playsound minecraft:entity.item_frame.rotate_item block @s ~ ~ ~
 
 # Advance forward and if nothing found
-scoreboard players add #distance lz_wrench_raycast 1
-execute if score @s lz_wrench_success matches 0 if score #distance lz_wrench_raycast matches ..451 positioned ^ ^ ^0.01 run function lzstools_wrench:raycast/rayloop
+scoreboard players add #distance lzt_wrench_raycast 1
+execute if score @s lzt_wrench_success matches 0 if score #distance lzt_wrench_raycast matches ..451 positioned ^ ^ ^0.01 run function lzstools_wrench:raycast/rayloop
