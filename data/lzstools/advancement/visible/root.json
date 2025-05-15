@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:warped_fungus_on_a_stick",
+            "id": "minecraft:carrot_on_a_stick",
             "components": {
                 "minecraft:custom_model_data": {
                     "strings": [
-                        "lzstools:wrench"
+                        "lzstools:wrench_default"
                     ]
                 }
             }
         },
-        "title": "LZ's Build Things",
+        "title": "LZ's Tools",
         "description": {
             "text": "Tools that you may find useful!"
         },
-        "background": "minecraft:block/dirt",
+        "background": "minecraft:block/deepslate_tiles",
         "show_toast": false,
         "announce_to_chat": false
     },

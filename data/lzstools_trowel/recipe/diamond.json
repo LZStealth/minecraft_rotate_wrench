@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "   ",
+    "s  ",
+    " dd"
+  ],
+  "key": {
+    "s": "minecraft:stick",
+    "d": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:max_damage": 4500,
+      "minecraft:custom_name": {
+        "text": "Diamond Trowel",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "lzstools:trowel_diamond"
+        ]
+      },
+      "minecraft:custom_data": {
+        "lzstools": [
+          "trowel",
+          "trowel_diamond"
+        ]
+      }
+    }
+  }
+}

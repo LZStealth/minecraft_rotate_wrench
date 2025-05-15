@@ -1,3 +1,0 @@
-# Slabs
-execute if block ~ ~ ~ #minecraft:slabs[type=top] if score py lz_wrench_raycast matches 8.. run function wrench:rotate/slabs/rotate
-execute if block ~ ~ ~ #minecraft:slabs[type=bottom] if score py lz_wrench_raycast matches ..7 run function wrench:rotate/slabs/rotate

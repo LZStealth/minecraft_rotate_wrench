@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "strings": [
+                        "lzstools:trowel_diamond"
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Trowel and error"
+        },
+        "description": {
+            "text": "Craft a Diamond Trowel"
+        },
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "lzstools:visible/trowel_iron",
+    "criteria": {
+        "": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "lzstools_trowel:diamond"
+            }
+        }
+    }
+}

@@ -1,8 +1,0 @@
-# Hopper
-execute if block ~ ~ ~ minecraft:hopper[facing=down] if score px lz_wrench_raycast matches 6..9 if score py lz_wrench_raycast matches ..3 if score pz lz_wrench_raycast matches 6..9 run function wrench:rotate/unique_blocks/hopper/rotate
-execute if block ~ ~ ~ minecraft:hopper[facing=south] if score px lz_wrench_raycast matches 6..9 if score py lz_wrench_raycast matches 4..7 if score pz lz_wrench_raycast matches 12.. run function wrench:rotate/unique_blocks/hopper/rotate
-execute if block ~ ~ ~ minecraft:hopper[facing=north] if score px lz_wrench_raycast matches 6..9 if score py lz_wrench_raycast matches 4..7 if score pz lz_wrench_raycast matches ..3 run function wrench:rotate/unique_blocks/hopper/rotate
-execute if block ~ ~ ~ minecraft:hopper[facing=east] if score px lz_wrench_raycast matches 12.. if score py lz_wrench_raycast matches 4..7 if score pz lz_wrench_raycast matches 6..9 run function wrench:rotate/unique_blocks/hopper/rotate
-execute if block ~ ~ ~ minecraft:hopper[facing=west] if score px lz_wrench_raycast matches ..3 if score py lz_wrench_raycast matches 4..7 if score pz lz_wrench_raycast matches 6..9 run function wrench:rotate/unique_blocks/hopper/rotate
-execute if block ~ ~ ~ minecraft:hopper if score px lz_wrench_raycast matches 4..11 if score py lz_wrench_raycast matches 4.. if score pz lz_wrench_raycast matches 4..11 run function wrench:rotate/unique_blocks/hopper/rotate
-execute if block ~ ~ ~ minecraft:hopper if score py lz_wrench_raycast matches 10.. run function wrench:rotate/unique_blocks/hopper/rotate

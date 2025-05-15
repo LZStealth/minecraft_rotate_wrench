@@ -1,33 +1,32 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:carrot_on_a_stick",
-      "components": {
-        "minecraft:custom_model_data": {
-          "strings": [
-            "lzstools:wrench",
-            "lzstools:wrench_default"
-          ]
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "strings": [
+                        "lzstools:wrench_default"
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Pivot, PIVOT!"
+        },
+        "description": {
+            "text": "Craft a Block Wrench"
+        },
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "lzstools:visible/root",
+    "criteria": {
+        "": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "lzstools_wrench:wrench"
+            }
         }
-      }
-    },
-    "title": {
-      "text": "Pivot, PIVOT!"
-    },
-    "description": {
-      "text": "Craft a Block Wrench"
-    },
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "parent": "lzstools:visible/root",
-  "criteria": {
-    "": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "wrench:wrench"
-      }
     }
-  }
 }

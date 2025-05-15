@@ -1,9 +1,0 @@
-#Advance terracotta mode rotation, show title
-item modify entity @s[tag=TerracottaNORTH] weapon.mainhand wrench:wrench_terracotta_east
-item modify entity @s[tag=TerracottaEAST] weapon.mainhand wrench:wrench_terracotta_south
-item modify entity @s[tag=TerracottaSOUTH] weapon.mainhand wrench:wrench_terracotta_west
-item modify entity @s[tag=TerracottaWEST] weapon.mainhand wrench:wrench_terracotta_north
-title @s[tag=TerracottaNORTH] actionbar [{"text":"Terracotta Mode: ","color":"green"},{"text":"East","color":"white"}]
-title @s[tag=TerracottaEAST] actionbar [{"text":"Terracotta Mode: ","color":"green"},{"text":"South","color":"white"}]
-title @s[tag=TerracottaSOUTH] actionbar [{"text":"Terracotta Mode: ","color":"green"},{"text":"West","color":"white"}]
-title @s[tag=TerracottaWEST] actionbar [{"text":"Terracotta Mode: ","color":"green"},{"text":"North","color":"white"}]

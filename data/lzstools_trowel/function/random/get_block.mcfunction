@@ -1,0 +1,2 @@
+$data modify storage lzstools:trowel chosen_block set from storage lzstools:trowel blocks[$(chosen_index)]
+$data modify storage lzstools:trowel chosen_slot set from storage lzstools:trowel slots[$(chosen_index)]

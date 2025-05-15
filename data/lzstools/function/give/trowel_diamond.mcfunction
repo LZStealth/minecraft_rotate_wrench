@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick[minecraft:custom_name={"text":"Diamond Trowel","color":"aqua"},minecraft:custom_model_data={strings:["lzstools:trowel_diamond"]},minecraft:custom_data={"lzstools":["trowel","trowel_diamond"]}]
