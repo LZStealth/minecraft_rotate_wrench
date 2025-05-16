@@ -1,0 +1,26 @@
+name: Draft Release
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  deploy-prod:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: https://gitea.com/actions/checkout@v4
+      - name: Zip Repository
+        run: zip -r "${{ gitea.workspace }}/${{ vars.FILE_NAME }} ${{ gitea.ref_name }}.zip" ./*
+      - name: Create Release
+        id: create_release
+        uses: https://gitea.com/actions/gitea-release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ gitea.ref_name }}
+          name: Release ${{ gitea.ref_name }}
+          draft: true
+          prerelease: false
+          files: |-
+            ${{ gitea.workspace }}/${{ vars.FILE_NAME }} ${{ gitea.ref_name }}.zip
