@@ -1,7 +1,7 @@
+# Don't run if
 execute if block ~ ~ ~ #lzstools:unbreakable run return fail
 execute if block ~ ~ ~ #minecraft:air run return fail
 execute if score @s lzt_hammer_damage >= @s lzt_hammer_max_damage run return fail
-
 
 # Spawn item
 loot spawn ~ ~ ~ mine ~ ~ ~ mainhand

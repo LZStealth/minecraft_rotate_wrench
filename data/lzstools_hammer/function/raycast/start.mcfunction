@@ -8,5 +8,6 @@ execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function lz
 
 # Clean Data
 data remove storage lzstools:hammer damage
+data remove storage lzstools:hammer components
 scoreboard players set @s lzt_hammer_damage 0
 scoreboard players set @s lzt_hammer_max_damage 1
