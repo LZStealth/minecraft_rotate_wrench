@@ -1,21 +1,21 @@
 [
-  {
-    "function": "minecraft:set_lore",
-    "entity": "this",
-    "lore": [
-      {
-        "text": "Flip"
-      }
-    ],
-    "mode": "replace_all"
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "values": [
-        "lzstools:wrench_flip"
-      ],
-      "mode": "replace_all"
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": "Flip"
+            }
+        ],
+        "mode": "replace_all"
+    },
+    {
+        "function": "minecraft:set_custom_model_data",
+        "strings": {
+            "values": [
+                "lzstools:wrench_flip"
+            ],
+            "mode": "replace_all"
+        }
     }
-  }
 ]
