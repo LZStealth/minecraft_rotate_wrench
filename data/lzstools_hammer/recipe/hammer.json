@@ -16,9 +16,9 @@
         "count": 1,
         "components": {
             "minecraft:max_damage": 1800,
-            "minecraft:custom_name": {
+            "minecraft:item_name": {
                 "text": "Hammer",
-                "color": "aqua",
+                "color": "light_purple",
                 "italic": false
             },
             "minecraft:custom_model_data": {

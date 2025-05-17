@@ -15,7 +15,7 @@
         "count": 1,
         "components": {
             "minecraft:max_damage": 4500,
-            "minecraft:custom_name": {
+            "minecraft:item_name": {
                 "text": "Diamond Trowel",
                 "color": "aqua",
                 "italic": false
