@@ -1,5 +1,5 @@
 scoreboard players reset @s lzt_hammer_unbreaking_check
-execute if entity @s[predicate=lzstools:unbreaking/all] run function lzstools_hammer:durability/unbreaking
+execute if entity @s[predicate=lzstools:unbreaking/mainhand/all] run function lzstools_hammer:durability/unbreaking
 execute if score @s lzt_hammer_unbreaking_check matches 1 run return fail
 
 # Handle Damage
