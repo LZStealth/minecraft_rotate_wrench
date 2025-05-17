@@ -3,6 +3,7 @@
 ## Tools
 - Wrench - Rotates blocks
 - Trowels - Places random blocks from the hotbar
+- Hammer - Break a 3x3 area
 
 Additionally, you can change the Wrench's mode by right clicking in your offhand.  
 Information on how the different wrench modes work is available [here](WrenchModes.md).
