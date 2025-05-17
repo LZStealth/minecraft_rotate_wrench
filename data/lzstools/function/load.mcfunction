@@ -9,9 +9,21 @@ scoreboard objectives add lzt_wrench_raycast dummy
 scoreboard objectives add lzt_trowel_success dummy
 scoreboard objectives add lzt_trowel_raycast dummy
 scoreboard objectives add lzt_trowel_raycast_hit dummy
+scoreboard objectives add lzt_trowel_block_check dummy
 scoreboard objectives add lzt_trowel_block_length dummy
-scoreboard objectives add lzt_chosen_block_check dummy
 scoreboard objectives add lzt_trowel_unbreaking_check dummy
 scoreboard objectives add lzt_trowel_unbreaking_chance dummy
 scoreboard objectives add lzt_trowel_damage dummy
 scoreboard objectives add lzt_trowel_max_damage dummy
+
+# Hammer
+scoreboard objectives add lzt_hammer_check minecraft.used:minecraft.iron_pickaxe
+scoreboard objectives add lzt_hammer_success dummy
+scoreboard objectives add lzt_hammer_raycast dummy
+scoreboard objectives add lzt_hammer_raycast_hit dummy
+scoreboard objectives add lzt_hammer_side_raycast dummy
+scoreboard objectives add lzt_hammer_side_raycast_hit dummy
+scoreboard objectives add lzt_hammer_unbreaking_check dummy
+scoreboard objectives add lzt_hammer_unbreaking_chance dummy
+scoreboard objectives add lzt_hammer_damage dummy
+scoreboard objectives add lzt_hammer_max_damage dummy

@@ -1,6 +1,5 @@
 scoreboard players set @s lzt_click_check 0
 
-
 # Wrench
 execute if predicate lzstools:wrench/mainhand run function lzstools_wrench:wrench/rotate
 execute if predicate lzstools:wrench/offhand run function lzstools_wrench:wrench/offhand

@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_pickaxe"
+    },
+    "cases": [
+      { "when": "lzstools:hammer", "model": { "type": "model", "model": "lzstools:items/hammer/hammer" } }
+    ]
+  }
+}

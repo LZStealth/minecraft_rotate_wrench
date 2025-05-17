@@ -11,4 +11,4 @@ execute if score @s lzt_trowel_raycast_hit matches 1 run tag @s remove lzstools_
 
 # Advance forward and if nothing found
 scoreboard players add #distance lzt_trowel_raycast 1
-execute if score @s lzt_trowel_raycast_hit matches 0 if score #distance lzt_trowel_raycast matches ..451 positioned ^ ^ ^0.01 run function lzstools_trowel:raycast/rayloop
+execute if score @s lzt_trowel_raycast_hit matches 0 if score #distance lzt_trowel_raycast matches ..451 positioned ^ ^ ^0.01 run function lzstools_trowel:raycast/loop

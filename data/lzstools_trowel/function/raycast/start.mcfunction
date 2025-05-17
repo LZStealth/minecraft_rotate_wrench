@@ -2,7 +2,7 @@
 scoreboard players set #distance lzt_trowel_raycast 0
 
 #Activating the raycast. This function will call itself until it is done.
-execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function lzstools_trowel:raycast/rayloop
+execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function lzstools_trowel:raycast/loop
 
 # Clean Data
 data remove storage lzstools:trowel inventory

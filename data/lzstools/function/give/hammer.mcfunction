@@ -1,0 +1,1 @@
+give @s minecraft:iron_pickaxe[minecraft:custom_name={"text":"Hammer","color":"aqua"},minecraft:custom_model_data={strings:["lzstools:hammer"]},minecraft:custom_data={"lzstools":["hammer"]},minecraft:max_damage=1800]

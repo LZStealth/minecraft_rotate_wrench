@@ -23,4 +23,4 @@ execute as @s[scores={lzt_wrench_success=1..}] run playsound minecraft:entity.it
 
 # Advance forward and if nothing found
 scoreboard players add #distance lzt_wrench_raycast 1
-execute if score @s lzt_wrench_success matches 0 if score #distance lzt_wrench_raycast matches ..451 positioned ^ ^ ^0.01 run function lzstools_wrench:raycast/rayloop
+execute if score @s lzt_wrench_success matches 0 if score #distance lzt_wrench_raycast matches ..451 positioned ^ ^ ^0.01 run function lzstools_wrench:raycast/loop

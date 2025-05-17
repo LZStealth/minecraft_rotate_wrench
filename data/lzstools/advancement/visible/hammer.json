@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_pickaxe",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "strings": [
+                        "lzstools:hammer"
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Hammering out the details"
+        },
+        "description": {
+            "text": "Craft a Hammer"
+        },
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "lzstools:visible/root",
+    "criteria": {
+        "": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "lzstools_hammer:hammer"
+            }
+        }
+    }
+}
