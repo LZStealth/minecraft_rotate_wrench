@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: https://gitea.com/actions/checkout@v4
+        uses: actions/checkout@v4
       - name: Zip Repository
         run: zip -r "${{ gitea.workspace }}/${{ vars.FILE_NAME }} ${{ gitea.ref_name }}.zip" ./*
       - name: Create Release
         id: create_release
-        uses: https://gitea.com/actions/gitea-release-action@v1
+        uses: actions/gitea-release-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
