@@ -5,6 +5,7 @@ function lzstools_wrench:raycast/target_coords
 
 # Partial Boxes
 execute if block ~ ~ ~ #lzstools:banners run function lzstools_wrench:raycast/partialbox/banners
+execute if block ~ ~ ~ #lzstools:skulls run function lzstools_wrench:raycast/partialbox/skulls
 execute if block ~ ~ ~ #minecraft:rails run function lzstools_wrench:raycast/partialbox/rails
 execute if block ~ ~ ~ #minecraft:trapdoors run function lzstools_wrench:raycast/partialbox/trapdoors
 execute if block ~ ~ ~ #minecraft:slabs run function lzstools_wrench:raycast/partialbox/slabs

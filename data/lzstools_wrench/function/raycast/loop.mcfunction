@@ -8,6 +8,7 @@ execute as @s run execute as @s run kill @n[type=minecraft:item,distance=..0.5,y
 # Partial Blocks
 execute if block ~ ~ ~ #lzstools:partialbox run function lzstools_wrench:raycast/partialbox
 execute if block ~ ~ ~ #lzstools:banners run function lzstools_wrench:raycast/partialbox
+execute if block ~ ~ ~ #lzstools:skulls run function lzstools_wrench:raycast/partialbox
 
 # Remaining Blocks
 execute unless block ~ ~ ~ #lzstools:partialbox if block ~ ~ ~ #lzstools:neswud run function lzstools_wrench:rotate/neswud/rotate
