@@ -1,0 +1,7 @@
+# Place NESWUD
+$execute as @s[x_rotation=45..90] store result score @s lzt_chisel_success run setblock ~ ~ ~ $(chosen_block)[facing=up] destroy
+$execute as @s[x_rotation=-90..-45] store result score @s lzt_chisel_success run setblock ~ ~ ~ $(chosen_block)[facing=down] destroy 
+$execute as @s[x_rotation=-45..45, y_rotation=-45..45] store result score @s lzt_chisel_success run setblock ~ ~ ~ $(chosen_block)[facing=north] destroy 
+$execute as @s[x_rotation=-45..45, y_rotation=45..135] store result score @s lzt_chisel_success run setblock ~ ~ ~ $(chosen_block)[facing=east] destroy 
+$execute as @s[x_rotation=-45..45, y_rotation=135..-135] store result score @s lzt_chisel_success run setblock ~ ~ ~ $(chosen_block)[facing=south] destroy 
+$execute as @s[x_rotation=-45..45, y_rotation=-135..-45] store result score @s lzt_chisel_success run setblock ~ ~ ~ $(chosen_block)[facing=west] destroy 

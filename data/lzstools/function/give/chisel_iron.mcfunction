@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick[minecraft:item_name={"text":"Iron Chisel","color":"aqua"},minecraft:custom_model_data={strings:["lzstools:chisel_iron"]},minecraft:custom_data={"lzstools":["chisel","chisel_iron"]},minecraft:max_damage=350]

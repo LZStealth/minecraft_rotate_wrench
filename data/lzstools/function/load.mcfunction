@@ -16,6 +16,16 @@ scoreboard objectives add lzt_trowel_unbreaking_chance dummy
 scoreboard objectives add lzt_trowel_damage dummy
 scoreboard objectives add lzt_trowel_max_damage dummy
 
+# Chisel
+scoreboard objectives add lzt_chisel_success dummy
+scoreboard objectives add lzt_chisel_raycast dummy
+scoreboard objectives add lzt_chisel_raycast_hit dummy
+scoreboard objectives add lzt_chisel_slot dummy
+scoreboard objectives add lzt_chisel_unbreaking_check dummy
+scoreboard objectives add lzt_chisel_unbreaking_chance dummy
+scoreboard objectives add lzt_chisel_damage dummy
+scoreboard objectives add lzt_chisel_max_damage dummy
+
 # Hammer
 scoreboard objectives add lzt_hammer_check minecraft.used:minecraft.iron_pickaxe
 scoreboard objectives add lzt_hammer_success dummy

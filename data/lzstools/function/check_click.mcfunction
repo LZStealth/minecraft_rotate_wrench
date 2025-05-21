@@ -7,3 +7,6 @@ execute if predicate lzstools:wrench/offhand run function lzstools_wrench:wrench
 # Trowel
 execute if predicate lzstools:trowel/mainhand run function lzstools_trowel:mainhand
 execute if predicate lzstools:trowel/offhand run function lzstools_trowel:offhand
+
+# Chisel
+execute if predicate lzstools:chisel/mainhand run function lzstools_chisel:mainhand

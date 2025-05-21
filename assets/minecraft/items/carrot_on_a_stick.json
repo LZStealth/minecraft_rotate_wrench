@@ -55,6 +55,20 @@
                     "type": "model",
                     "model": "lzstools:items/trowel/diamond"
                 }
+            },
+            {
+                "when": "lzstools:chisel_iron",
+                "model": {
+                    "type": "model",
+                    "model": "lzstools:items/chisel/iron"
+                }
+            },
+            {
+                "when": "lzstools:chisel_diamond",
+                "model": {
+                    "type": "model",
+                    "model": "lzstools:items/chisel/diamond"
+                }
             }
         ]
     }
