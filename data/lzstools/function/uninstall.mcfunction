@@ -18,16 +18,16 @@ scoreboard objectives remove lzt_trowel_unbreaking_chance
 scoreboard objectives remove lzt_trowel_damage 
 scoreboard objectives remove lzt_trowel_max_damage 
 
-# Trowel
-scoreboard objectives remove lzt_trowel_success
-scoreboard objectives remove lzt_trowel_raycast
-scoreboard objectives remove lzt_trowel_raycast_hit
-scoreboard objectives remove lzt_trowel_block_check
-scoreboard objectives remove lzt_trowel_block_length
-scoreboard objectives remove lzt_trowel_unbreaking_check
-scoreboard objectives remove lzt_trowel_unbreaking_chance
-scoreboard objectives remove lzt_trowel_damage
-scoreboard objectives remove lzt_trowel_max_damage
+# Chisel
+scoreboard objectives remove lzt_chisel_success
+scoreboard objectives remove lzt_chisel_raycast
+scoreboard objectives remove lzt_chisel_raycast_hit
+scoreboard objectives remove lzt_chisel_block_check
+scoreboard objectives remove lzt_chisel_slot
+scoreboard objectives remove lzt_chisel_unbreaking_check
+scoreboard objectives remove lzt_chisel_unbreaking_chance
+scoreboard objectives remove lzt_chisel_damage
+scoreboard objectives remove lzt_chisel_max_damage
 
 # Hammer
 scoreboard objectives remove lzt_hammer_check

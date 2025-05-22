@@ -20,6 +20,7 @@ scoreboard objectives add lzt_trowel_max_damage dummy
 scoreboard objectives add lzt_chisel_success dummy
 scoreboard objectives add lzt_chisel_raycast dummy
 scoreboard objectives add lzt_chisel_raycast_hit dummy
+scoreboard objectives add lzt_chisel_block_check dummy
 scoreboard objectives add lzt_chisel_slot dummy
 scoreboard objectives add lzt_chisel_unbreaking_check dummy
 scoreboard objectives add lzt_chisel_unbreaking_chance dummy
