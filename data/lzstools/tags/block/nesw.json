@@ -1,10 +1,10 @@
 {
     "replace": false,
     "values": [
-        "minecraft:furnace",
-        "minecraft:smoker",
         "minecraft:blast_furnace",
         "minecraft:carved_pumpkin",
-        "minecraft:jack_o_lantern"
+        "minecraft:furnace",
+        "minecraft:jack_o_lantern",
+        "minecraft:smoker"
     ]
 }
