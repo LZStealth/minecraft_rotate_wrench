@@ -15,7 +15,7 @@
         "id": "minecraft:iron_pickaxe",
         "count": 1,
         "components": {
-            "minecraft:max_damage": 2400,
+            "minecraft:max_damage": 3200,
             "minecraft:item_name": {
                 "text": "Hammer",
                 "color": "light_purple",

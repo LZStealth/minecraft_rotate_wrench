@@ -12,11 +12,11 @@ clone ~ ~ ~ ~ ~ ~ ~ -64 ~ replace
 setblock ~ ~ ~ minecraft:air replace
 
 # Break
-gamerule doTileDrops false
+gamerule minecraft:block_drops false
 clone ~ -64 ~ ~ -64 ~ ~ ~ ~ replace
 setblock ~ -64 ~ minecraft:bedrock replace
 setblock ~ ~ ~ minecraft:air destroy
-gamerule doTileDrops true
+gamerule minecraft:block_drops true
 
 # Durability
 function lzstools_hammer:durability/handle
